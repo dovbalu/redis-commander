@@ -5,8 +5,9 @@ Redis management tool written in node.js
 # Install and Run
 
 ```bash
-$ npm install -g redis-commander
-$ redis-commander
+$ clone the repo
+  npm install
+  npm run start 
 ```
 
 # Usage
