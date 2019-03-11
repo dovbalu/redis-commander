@@ -37,7 +37,7 @@
     "ioredis": "3.2.2",
     "jsonwebtoken": "8.1.0",
     "jstree": "3.3.7",
-    "node-redis-dump": "0.2.1",
+    "node-redis-dump": "dovbalu/node-redis-dump",
     "opener": "1.5.1",
     "optimist": "0.3.7",
     "readline-browserify": "0.0.4",
@@ -52,6 +52,9 @@
   },
   "bin": {
     "redis-commander": "./bin/redis-commander.js"
+  },
+  "scripts": {
+    "start": "node ./bin/redis-commander.js"
   },
   "preferGlobal": true
 }
