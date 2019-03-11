@@ -3,7 +3,7 @@
 Redis management tool written in node.js
 
 # Install and Run
-
+This is a fork from the original redis-commander. The original package had a bug in a import/export functionality. This repo has a patch for this bug. 
 ```bash
 $ clone the repo
   npm install
